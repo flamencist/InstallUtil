@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackAsTool>true</PackAsTool>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <ToolCommandName>installUtil</ToolCommandName>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Alexander Chermyanin</Authors>
+    <Company>flamencist</Company>
+    <Description>Port of windows InstallUtil.exe (https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool).</Description>
+    <Product>installUtil</Product>
+    <PackageLicenseUrl>https://github.com/flamencist/installUtil/blob/master/license.md</PackageLicenseUrl>
+    <Copyright>Copyright (C) 2018 Alexander Chermyanin</Copyright>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>install, system.configuration, linux, dotnet core</PackageTags>
+    <PackageProjectUrl>https://github.com/flamencist/installUtil</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/flamencist/installUtil</RepositoryUrl>
+    <PackageReleaseNotes>initial version</PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Core.System.Configuration.Install" Version="1.0.0" />
+  </ItemGroup>
+</Project>
