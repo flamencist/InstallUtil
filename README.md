@@ -12,6 +12,6 @@ dotnet tool install -g InstallUtil
 
 Command for execution:
 ```
-installUtil TestComponent.Installer.dll
+installUtil SomeInstaller.dll
 
 ```
