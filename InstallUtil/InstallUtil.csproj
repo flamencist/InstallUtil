@@ -3,8 +3,8 @@
     <PackAsTool>true</PackAsTool>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <ToolCommandName>installUtil</ToolCommandName>
-    <PackageVersion>1.0.0</PackageVersion>
+    <ToolCommandName>InstallUtil</ToolCommandName>
+    <PackageVersion>1.1.0</PackageVersion>
     <Authors>Alexander Chermyanin</Authors>
     <Company>flamencist</Company>
     <Description>Port of windows InstallUtil.exe (https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool).</Description>
