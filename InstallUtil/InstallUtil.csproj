@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <ToolCommandName>InstallUtil</ToolCommandName>
-    <PackageVersion>1.1.0</PackageVersion>
+    <PackageVersion>1.2.0</PackageVersion>
     <Authors>Alexander Chermyanin</Authors>
     <Company>flamencist</Company>
     <Description>Port of windows InstallUtil.exe (https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool).</Description>
@@ -15,9 +15,9 @@
     <PackageTags>install, system.configuration, linux, dotnet core</PackageTags>
     <PackageProjectUrl>https://github.com/flamencist/installUtil</PackageProjectUrl>
     <RepositoryUrl>https://github.com/flamencist/installUtil</RepositoryUrl>
-    <PackageReleaseNotes>initial version</PackageReleaseNotes>
+    <PackageReleaseNotes>updated configuration install</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Core.System.Configuration.Install" Version="1.0.0" />
+    <PackageReference Include="Core.System.Configuration.Install" Version="1.0.1" />
   </ItemGroup>
 </Project>
