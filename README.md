@@ -64,4 +64,15 @@ options. To learn about these options, run InstallUtil with the paths
 of the assemblies on the command line along with the -? or -help option.
 ```
 
+### License
+
+This software is distributed under the terms of the MIT License (MIT).
+
+### Authors
+
+Alexander Chermyanin / [LinkedIn](https://www.linkedin.com/in/alexander-chermyanin)
+
+
+
+Contributions and bugs reports are welcome.
 
