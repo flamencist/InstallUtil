@@ -6,6 +6,10 @@
 InstallUtil (global tool) (https://docs.microsoft.com/en-us/dotnet/framework/tools/installutil-exe-installer-tool) version  for DotNetCore. 
 Based on Core.System.Configuration.Install (https://github.com/flamencist/Core.System.Configuration.Install)
 
+Help support the project:
+
+<a href="https://www.buymeacoffee.com/flamencist" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
 ### Installation: install as global tool (https://docs.microsoft.com/en-us/dotnet/core/tools/global-tools)
 ```
 dotnet tool install -g InstallUtil
